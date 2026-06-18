@@ -1,8 +1,9 @@
 name: Hello World
 
 on: 
-    schedule:
-        - cron: "* * * * *"
+    workflow_dispath:
+    # schedule:
+    #     - cron: "* * * * *"
     # push
 
 jobs:
